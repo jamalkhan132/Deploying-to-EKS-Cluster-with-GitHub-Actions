@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name:  dj-container
-        image:  fedhr-graphene-k8-image:latest #726725565829.dkr.ecr.us-east-1.amazonaws.com/fedhr-repo-backend:latest
+        image: jamalkhan132/newapp:tagname
         imagePullPolicy: IfNotPresent #Always
         command: ['python','manage.py', 'runserver', '0.0.0.0:9000']
         # resources:
